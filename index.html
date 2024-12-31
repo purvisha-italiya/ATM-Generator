@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Self Bank of life</h1>
+        <form>
+            <table>
+                <tr>
+                    <td> <label>Name </label> </td>
+                    <td>:</td>
+                    <td> <input type="text" id="name"> </td>
+                </tr>
+                <tr>
+                    <td> <label>Balance</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="balance"></td>
+                </tr>
+                <tr>
+                    <td><label> Withdrawal </label></td>
+                    <td>:</td>
+                    <td> <input type="number" id="withdrawal"></td>
+                </tr>
+               <tr>
+                <td> <label> OTP </label></td>
+                <td>:</td>
+                <td><input type="number" id="otp"></td>
+               </tr>
+            </table>
+        </form>
+        <button id="generator">Generate OTP</button>
+        <button id="btn">Submit</button>
+
+    </div>
+
+    <div class="container" id="result">
+
+        <h1>Your All Details are here</h1>
+
+        <h3 id="txt"></h3>
+        <h3 id="ansb"></h3>
+        <h3 id="answith"></h3>
+        <h3 id="ansamount"></h3>
+        <h3 id="ansotp"></h3>
+    </div>
+</body>
+
+<script src="./jquery-3.7.1.min.js"></script>
+<script src="./myjs.js"></script>
+
+</html>
